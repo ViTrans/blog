@@ -500,6 +500,8 @@ body {
     font-size: 16px;
   }
   .content-footer {
+    text-align: center;
+    width: 300px;
     height: 62px;
     font-style: normal;
     font-weight: 400;

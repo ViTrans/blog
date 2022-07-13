@@ -418,6 +418,8 @@ body {
     line-height: calc(30 / 16);
   }
   .content-footer {
+    text-align: center;
+    width: 300px;
     height: 62px;
     font-style: normal;
     font-weight: 400;
