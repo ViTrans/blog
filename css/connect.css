@@ -123,7 +123,8 @@ body {
 .connect-list {
   margin-top: 93px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 100px 120px;
   flex-wrap: wrap;
   margin-bottom: 194px;
 }
@@ -132,13 +133,13 @@ body {
   margin-bottom: 20px;
 }
 .connect-item p {
-  width: 338px;
+  width: 423px;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   margin-top: 20px;
   max-width: 388px;
-  height: 90px;
+  height: 60px;
 }
 .connect-item a {
   text-decoration: none;
@@ -377,6 +378,7 @@ body {
     margin-bottom: 150px;
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
   .connect-item p {
     width: 100%;
@@ -498,6 +500,7 @@ body {
   }
   .connect-list {
     margin-bottom: 150px;
+    gap: 0;
   }
   .connect-item {
     margin-top: 50px;
