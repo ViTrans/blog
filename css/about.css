@@ -225,7 +225,7 @@ body {
   }
   .menu-icon {
     display: block;
-    font-size: 30px;
+    font-size: 40px;
   }
   .close-icon {
     display: none;
@@ -270,8 +270,8 @@ body {
     position: relative;
   }
   .navbar .logo {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
   }
   .navbar .logo img {
     width: 100%;
@@ -303,7 +303,7 @@ body {
   }
   .menu-icon {
     display: block;
-    font-size: 30px;
+    font-size: 40px;
   }
   .close-icon {
     display: none;
@@ -348,8 +348,8 @@ body {
     position: relative;
   }
   .navbar .logo {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
   }
   .navbar .logo img {
     width: 100%;
