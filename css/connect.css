@@ -98,21 +98,20 @@ body {
 .navbar .menu-item a.active::after {
   width: 100%;
 }
-.connect-main {
-  margin-top: 88px;
-  font-style: normal;
-
-  margin-bottom: 112px;
-}
-.connect-main p {
-  width: 240px;
+.connect-main-title {
+  margin-top: 94px;
+  width: 218px;
   height: 88px;
-  font-size: 24px;
-  line-height: calc(44 / 24);
-  font-weight: 400;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 116px;
   text-align: center;
+}
+.connect-main-title h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(44 / 24);
 }
 .vector-icon {
   display: inline-block;
@@ -122,18 +121,17 @@ body {
 }
 .connect-list {
   margin-top: 93px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 100px 120px;
   flex-wrap: wrap;
   margin-bottom: 194px;
 }
 .connect-list .connect-item {
-  max-width: calc(100% / 2);
   margin-bottom: 20px;
 }
+
 .connect-item p {
-  width: 423px;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -188,7 +186,6 @@ body {
     max-width: 100%;
     padding: 0 40px;
   }
-
   .menu-icon {
     display: block;
     font-size: 40px;
@@ -240,8 +237,8 @@ body {
     position: relative;
   }
   .navbar .logo {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
   }
   .navbar .logo img {
     width: 100%;
@@ -343,58 +340,51 @@ body {
     object-fit: cover;
   }
   .connect-main-title {
+    margin-top: 80px;
+    margin-bottom: 90px;
     width: 244.8px;
     height: 124px;
+  }
+  .connect-main-title h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: calc(31 / 20);
   }
-  .connect-title {
-    margin-top: 81px;
-    margin-bottom: 94px;
-  }
-  .connect-title span {
-    width: 223px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: calc(30 / 18);
-  }
-  .connect-title p {
-    width: 295px;
-    height: 120px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(30 / 16);
+  .connect-list {
+    grid-template-columns: 1fr;
+    gap: 60px;
+    margin-bottom: 150px;
   }
   .connect-list .connect-item {
-    width: 100%;
-    margin-top: 50px;
-  }
-  .connect-list {
-    margin-bottom: 150px;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .connect-item p {
-    width: 100%;
-    height: auto;
-    font-style: normal;
+    width: 295px;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
+    margin-top: 20px;
+    height: auto;
+  }
+  .connect-item a {
+    text-decoration: none;
+    color: inherit;
   }
   .connect-item span {
-    font-style: normal;
-    font-weight: 600;
+    width: 223px;
+    height: 30px;
     font-size: 18px;
     line-height: calc(30 / 18);
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    right: -50px;
   }
   .content-footer {
+    text-align: center;
+    width: 300px;
     height: 62px;
     font-style: normal;
     font-weight: 400;
@@ -468,50 +458,47 @@ body {
     object-fit: cover;
   }
   .connect-main-title {
+    margin-top: 80px;
+    margin-bottom: 90px;
     width: 244.8px;
     height: 124px;
+  }
+  .connect-main-title h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: calc(31 / 20);
   }
-  .connect-title {
-    margin-top: 81px;
-    margin-bottom: 94px;
+  .connect-list {
+    grid-template-columns: 1fr;
+    gap: 60px;
+    margin-bottom: 150px;
   }
-  .connect-title span {
-    width: 223px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: calc(30 / 18);
+  .connect-list .connect-item {
+    margin-left: auto;
+    margin-right: auto;
   }
-  .connect-title p {
+  .connect-item p {
     width: 295px;
-    height: 120px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
-  }
-  .connect-list .connect-item {
-    max-width: 100%;
-  }
-  .connect-list {
-    margin-bottom: 150px;
-    gap: 0;
-  }
-  .connect-item {
-    margin-top: 50px;
-  }
-  .connect-item p {
-    max-width: 100%;
+    margin-top: 20px;
     height: auto;
-    font-weight: lighter;
+  }
+  .connect-item a {
+    text-decoration: none;
+    color: inherit;
   }
   .connect-item span {
-    font-size: 16px;
+    width: 223px;
+    height: 30px;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    right: -50px;
   }
   .content-footer {
     text-align: center;

@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   height: 100%;
@@ -99,19 +98,19 @@ body {
   width: 100%;
 }
 .write-title {
-  margin-top: 113px;
-  font-style: normal;
+  margin-top: 94px;
+  width: 400px;
+  height: 88px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 116px;
-  font-size: 24px;
-  font-weight: 400;
   text-align: center;
-  line-height: calc(44 / 24);
 }
-.write-title p {
-  width: 395px;
-  height: 88px;
+.write-title h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: calc(44 / 24);
 }
 .vector-icon {
   display: inline-block;
@@ -302,12 +301,22 @@ body {
     object-fit: cover;
   }
   .write-title {
-    width: 244.8px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     height: 124px;
+    width: 244.8px;
+  }
+  .write-title h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: calc(31 / 20);
+  }
+  .write-blog-link {
+    width: 100%;
+    height: 100%;
+    margin-top: 73px;
+    margin-bottom: 134px;
   }
   .write-blog-item {
     max-width: 100%;
@@ -320,9 +329,16 @@ body {
     height: 100%;
     object-fit: cover;
   }
-  .write-content p {
+  .write-content {
+    margin-bottom: 134px;
     width: 295px;
     height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .write-content p {
+    width: 295px;
+    height: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -330,6 +346,10 @@ body {
   }
   .content-footer {
     height: 62px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .content-footer a {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -402,12 +422,22 @@ body {
     object-fit: cover;
   }
   .write-title {
-    width: 244.8px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     height: 124px;
+    width: 244.8px;
+  }
+  .write-title h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: calc(31 / 20);
+  }
+  .write-blog-link {
+    width: 100%;
+    height: 100%;
+    margin-top: 73px;
+    margin-bottom: 134px;
   }
   .write-blog-item {
     max-width: 100%;
@@ -420,9 +450,15 @@ body {
     height: 100%;
     object-fit: cover;
   }
-  .write-content p {
+  .write-content {
+    margin-bottom: 134px;
     width: 295px;
     height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .write-content p {
+    height: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -430,6 +466,10 @@ body {
   }
   .content-footer {
     height: 62px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .content-footer a {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
